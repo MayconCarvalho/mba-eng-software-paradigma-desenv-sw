@@ -1,3 +1,7 @@
+# Paradigma: Logico
+# Base de conhecimentos de regras e fatos para a resolução de problemas lógicos.
+
+# Fatos
 pai(jose, maria).
 pai(jose, joao).
 mae(ana, maria).
@@ -7,6 +11,7 @@ mae(clarice, jose).
 pai(pedro, ana).
 mae(renata, ana).
 
+# Regras
 eh_pai(Pai, Filho) :- 
     pai(Pai, Filho).
 

@@ -1,4 +1,11 @@
-# Funções puras
+# Funções puras (Princípios da programação funcional)
+# Funções que não alteram o estado do programa e não possuem efeitos colaterais (side effects)
+# Funções que sempre retornam o mesmo valor para a mesma entrada (determinísticas)
+# Funções que não dependem de variáveis globais e retornam um valor que depende apenas dos argumentos passados
+
+# Efeitos colaterais
+# Alteram o estado do programa
+# Podem alterar variáveis globais
 def soma(a, b):
     return a + b
 
